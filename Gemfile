@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.2'
+ruby '2.4.1'
 
 gem 'sinatra'
 gem 'unicorn'
@@ -13,6 +13,5 @@ gem 'lingr_bot'
 # gem 'mongo'
 
 group :development do
-  gem 'sinatra-contrib'
   gem 'foreman'
 end
